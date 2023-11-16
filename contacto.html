@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contacto - Senses</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="caja">
+                <h1><img src="imagenes/logo.negrovf.png" alt="Logo de Senses"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="formulario">
+                <form>
+                    <label for="nombreapellido">Nombre y Apellido</label>
+                    <input type="text" id="nombreapellido" class="input-padron" required>
+
+                    <label for="correoelectronico">Correo Electrónico</label>
+                    <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+
+                    <label for="Fecha">Fecha cumpleaños</label>
+                    <input type="date" id="fecha" class="input-padron" required placeholder="(XX) XXXX XXXX">
+
+                    <label for="mensaje">Mensaje</label>
+                    <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+                    
+                    <fieldset>
+                    <legend>¿Cómo le gustaría que l@ contactemos?</legend>
+
+                    <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                    
+                    <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
+                    
+                    <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+                    
+                </fieldset>
+
+                <fieldset>
+                    <legend>¿En qué horario prefiere ser contactad@?</legend>
+                    <select>
+                        <option>Mañana</option>
+                        <option>Tarde</option>
+                        <option>Noche</option>
+                    </select>
+                </fieldset>
+                
+                <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades de Senses?</label> 
+
+                <input type="submit" value="Enviar formulario" class="enviar">
+
+            </form>
+
+            <legend>¡Las más vendidas!</legend>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dama</th>
+                        <th>Caballero</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Good Girl by Carolina Herrera</td>
+                        <td>Hugo Red</td>
+                    </tr>
+                    <tr>
+                        <td>Carolina Herrera</td>
+                        <td>212 VIP MEN</td>
+                    </tr>
+                    <tr>
+                        <td>Ligth Blue by Dolce & Gabbana</td>
+                        <td>1 Million by Paco Rabanne</td>
+                    </tr><tr>
+                        <td>Chance by Chanel</td>
+                        <td>Eros by Versace</td>
+                    </tr><tr>
+                        <td>Musk by Yanbal</td>
+                        <td>Invictus by Paco Rabanne</td>
+                    </tr>
+                    </tr><tr>
+                        <td>Omnia Amethyste by Bulgari</td>
+                        <td>Sauvage by Christian Dior</td>
+                    </tr>
+                    </tr><tr>
+                        <td>212 VIP Rose CH</td>
+                        <td>Lacoste RED</td>
+                    </tr>
+                    </tr><tr>
+                      <td>La Vida es Bella - Lancome</td>
+                      <td>Starwalker  by Montblanc</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            </div>
+               
+                               
+                
+                
+
+            
+        </main>
+        <footer>
+            <img src="imagenes/logo.blanco.png">
+            <p class="copyright">&copy Registro mercantil Senses 03064782 - 2018</p>
+            <p class="copyright">🖁(57) 3003338773 - 📧 sensespensamosenti@gmail.com</p>
+        </footer>
+    </body>
+</html>
